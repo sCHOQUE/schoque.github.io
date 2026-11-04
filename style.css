@@ -1,0 +1,99 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+header {
+    justify-items: center;
+    border: 2px sandybrown solid;
+    padding: 5px;
+    margin: 2px;
+}
+
+h1 {
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+h2 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.principal {
+    background-color: black;
+}
+
+p {
+    font-size: medium;
+    color: rgb(28, 241, 188);
+}
+
+ul {
+    font-size: medium;
+    color: rgb(85, 87, 85);
+}
+
+.imagem {
+    width: 1400px;
+    height: 800px;
+    border: 3px aqua solid;
+    border-radius: 5px;
+}
+
+#message {
+    padding: 2px;
+    margin: 2px;
+    border: 4px red solid;
+}
+
+input {
+    border: 4px black solid;
+}
+
+.whoami {
+    justify-items: center;
+}
+
+.contato {
+    border: 4px black solid;
+    padding: 2px;
+    margin: 2px;
+    background-color: rgba(169, 169, 169, 0.397);
+    justify-items: center;
+}
+
+.hobbies {
+    border: 4px black solid;
+    padding: 2px;
+    margin: 2px;
+    background-color: rgba(169, 169, 169, 0.397);
+    justify-items: center;
+}
+
+footer {
+    justify-items: center;
+}
+
+.link {
+    color: black;
+}
+
+.link:hover {
+    background: gold;
+    outline: dotted red;
+}
+
+footer {
+    border: 2px dimgray solid;
+    padding: 5px;
+    margin: 2px;
+}
+
+main {
+    border: 2px blueviolet solid;
+    padding: 5px;
+    margin: 2px;
+}
