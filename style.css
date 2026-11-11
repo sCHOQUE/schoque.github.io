@@ -37,10 +37,10 @@ ul {
 }
 
 .imagem {
-    width: 1400px;
-    height: 800px;
+    width: 400px;
+    height: 400px;
     border: 3px aqua solid;
-    border-radius: 5px;
+    border-radius: 50%;
 }
 
 #message {
@@ -96,4 +96,41 @@ main {
     border: 2px blueviolet solid;
     padding: 5px;
     margin: 2px;
+}
+
+.stack {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 17px;
+    border: 4px black solid;
+    grid-column: auto;
+    grid-row: auto;
+}
+
+.box {
+    border: 1px black solid;
+    margin: 5px;
+    padding: 5px;
+}
+
+.lista_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 10px;
+    color: gray;
+    font-size: small;
+    list-style-type: none;
+}
+
+.item_lista_box {
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.texto_box {
+    font-size: small;
+    color: black;
 }
