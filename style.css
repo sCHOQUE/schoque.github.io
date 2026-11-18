@@ -41,6 +41,15 @@ ul {
     height: 400px;
     border: 3px aqua solid;
     border-radius: 50%;
+    justify-self: center;
+    margin: 20px;
+}
+
+@media (min-width: 500px) {
+    .imagem {
+        border-radius: 10%;
+        width: 90vw;
+    }
 }
 
 #message {
@@ -54,7 +63,8 @@ input {
 }
 
 .whoami {
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .contato {
@@ -100,12 +110,29 @@ main {
 
 .stack {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 17px;
     border: 4px black solid;
-    grid-column: auto;
-    grid-row: auto;
 }
+
+@media (min-width: 600px) {
+    .stack {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .stack {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .stack {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
 
 .box {
     border: 1px black solid;
